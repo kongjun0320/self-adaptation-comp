@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-$ npm install vue3-lazy -S
+$ npm install self-adaptation-comp -S
 ```
 
 ## Usage
