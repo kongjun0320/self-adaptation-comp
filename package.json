@@ -1,7 +1,19 @@
 {
   "name": "self-adaptation-comp",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "private": false,
+  "main": "dist/bundle.umd.min.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": "aicherish <1741142595@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kongjun0320/self-adaptation-comp"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
