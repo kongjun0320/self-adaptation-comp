@@ -1,28 +1,39 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <AutoFitContainer>
+      <section class="header">header</section>
+      <section class="content">
+        <section class="left">left</section>
+        <section class="right">right</section>
+      </section>
+    </AutoFitContainer>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.header {
+  width: 1000px;
+  height: 100px;
+  background: #f00;
+}
+.content {
+  display: flex;
+  width: 1000px;
+}
+.left {
+  width: 300px;
+  height: 500px;
+  background: #0f0;
+}
+.right {
+  width: 700px;
+  height: 500px;
+  background: #ff0;
 }
 </style>
